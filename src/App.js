@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
+import LoginButton from './components/LoginButton';
 import NotesList from './components/NotesList';
 import Search from './components/Search';
 import Header from './components/Header';
@@ -9,22 +10,22 @@ const App = () => {
 		{
 			id: nanoid(),
 			text: 'This is my first note!',
-			date: '15/04/2021',
+			date: '29/02/2024',
 		},
 		{
 			id: nanoid(),
 			text: 'This is my second note!',
-			date: '21/04/2021',
+			date: '1/03/2024',
 		},
 		{
 			id: nanoid(),
 			text: 'This is my third note!',
-			date: '28/04/2021',
+			date: '2/03/2024',
 		},
 		{
 			id: nanoid(),
 			text: 'This is my new note!',
-			date: '30/04/2021',
+			date: '3/03/2024',
 		},
 	]);
 
